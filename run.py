@@ -1,2 +1,2 @@
-from teenpathiapi import create_app
-app = create_app()
+from teenpathiapi import Cards
+app = Card
