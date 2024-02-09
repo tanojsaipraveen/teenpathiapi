@@ -16,11 +16,11 @@ class Card:
 
 cache = {}  # This can be replaced with a more sophisticated caching mechanism
 
-@app.route('/',methods=['GET'])
+@app.route('/')
 def home():
     return "home"
 
-@app.route('/getcards', methods=['GET'])
+@app.route('/getcards')
 def get_cards():
     numberOfPlayers = int(request.args.get('numberOfPlayers', DefaultPlayers))
 
