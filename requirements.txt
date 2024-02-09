@@ -1,4 +1,5 @@
 Flask
 Gunicorn
 requests==2.26.0
+Flask-Cors
 
